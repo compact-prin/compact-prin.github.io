@@ -44,8 +44,9 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1 class="text-light"></h1>
-		<a href="index.html"><img src="assets/img/compact_logo.png" alt="" class="img-fluid"></a>
+        <h1 class="text-light"><a href="index.html"><span>COMPACT</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
@@ -150,7 +151,7 @@
             <div class="icon-box icon-box-green">
               <div class="icon"><i class="bi bi-clock"></i></div>
               <h4 class="title"><a href="">Time span</a></h4>
-              <p class="description">COMPACT will run for two years, from September 2023 to September 2025</p>
+              <p class="description">COMPACT will run for 24 months, from 09/2023 to 09/2025</p>
             </div>
           </div>
 
@@ -175,76 +176,59 @@
 
         <div class="section-title">
           <h2>Project Goals</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>COMPACT will propose methodologies aimed at compressing feature-based representations of network traffic (including KPIs), focusing in particular on lossy compression schemes and novel traffic representations based on machine-learning techniques. The compression techniques will be instrumental to network analysis, through the definition of specific rate-accuracy models which describe the impact of lossy coding traffic features on the accuracy of network traffic analysis tasks.
+</p>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="assets/img/features-1.svg" class="img-fluid" alt="">
+            <img src="assets/img/compress-arrows-svgrepo-com.svg" height="250" alt="">
           </div>
           <div class="col-md-7 pt-4">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Lossy compression techniques for network traffic features</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+			  COMPACT will explore the application of lossy compression techniques to network features and KPIs, utilising a diverse set of methodologies tailored to the specific traffic representations considered.
+              
             </p>
             <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="bi bi-check"></i> Flow-based features: intra-flow coding, inter-flow coding, scalar/vector quantization, sparse coding</li>
+              <li><i class="bi bi-check"></i> Window-based features: differential coding exploiting temporal correlation</li>
+			  <li><i class="bi bi-check"></i> Network KPIs: unique characteristics that require hybrid techniques</li>
             </ul>
           </div>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/features-2.svg" class="img-fluid" alt="">
+            <img src="assets/img/artificial-intelligence-svgrepo-com.svg" height="200" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Corporis temporibus maiores provident</h3>
+            <h3>Compressed traffic representations</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+			  COMPACT aims to use approaches based on ML to develop generic compression and representation algorithms for network data. 
+              
             </p>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              In contrast to previous works, we aim to provide a comprehensive framework for representing different network entities (flows, features, endpoints, domains) based on machine learning techniques.
             </p>
           </div>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="assets/img/features-3.svg" class="img-fluid" alt="">
+            <img src="assets/img/statistics-svgrepo-com.svg" height="300" alt="">
           </div>
           <div class="col-md-7 pt-5">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <h3>Rate-accuracy models for network traffic analysis</h3>
+            <p>COMPACT will devise specific rate-accuracy models which describe the impact of lossy coding on the final accuracy performance of specific traffic analysis tasks. Several among the most common traffic analysis tasks will be considered, with key examples taken from both centralised/core and edge/IoT network architectures.
+</p>
             <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+              <li><i class="bi bi-check"></i> Traffic classification / intrusion detection</li>
+              <li><i class="bi bi-check"></i> Device identification</li>
             </ul>
           </div>
         </div>
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/features-4.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-        </div>
 
       </div>
     </section><!-- End Features Section -->
