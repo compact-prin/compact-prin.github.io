@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>About</title>
+  <title>News</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -92,10 +92,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>About COMPACT</h2>
+          <h2>News</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>About COMPACT</li>
+            <li>News</li>
           </ol>
         </div>
 
@@ -107,24 +107,29 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/about.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>Reducing complexity and costs of network traffic analysis</h3>
+          <div class="col-lg-12 pt-4 pt-lg-0">
+            <h3>2024/05/20 - COMPACT Newsletter #1</h3>
             <p class="fst-italic">
-Network traffic analysis is a critical tool used by network operators for monitoring, managing, and ensuring the security of networks at different scales. Traditional network traffic analysis involves capturing network data and can demand extensive storage and computational resources, resulting in high management and operational costs.
-The COMPACT project aims to revolutionize traffic analysis by reducing resource complexity and costs associated with it.            </p>
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> Shift to Feature-Based Analysis: COMPACT promotes a shift from conventional packet-based traffic representation to a feature-based approach. Statistical features are extracted from captured data and employed in machine learning algorithms.</li>
-              <li><i class="bi bi-check2-circle"></i> Native Feature-Based Systems: COMPACT explores the creation of native feature-based traffic analysis systems that sidestep the traditional packet-based representation. This shift reduces storage costs while maintaining analysis accuracy.</li>
-              <li><i class="bi bi-check2-circle"></i> Lossy Compression Techniques: A key innovation pursued by COMPACT is the development of lossy compression techniques tailored to network traffic features. These techniques significantly cut storage costs without sacrificing analysis accuracy.</li>
-			  <li><i class="bi bi-check2-circle"></i> Rate-Accuracy Tradeoff Exploration: The project includes the development of models to analyze the trade-off between compression rates and analysis accuracy. This helps identify critical traffic features for specific analysis tasks.
+The COMPACT research team is happy to publish this first e-newsletter about the status of the project! COMPACT is a PRIN-funded project that will propose methodologies aimed at compressing feature-based representations of network traffic in edge (e.g., IoT) and core (e.g., backbone) scenarios.
 
+The entire research team met in Trieste at the end of April, to discuss the recent activities and the latest updates. It was a very productive meeting, with many fruitful discussions. We report in this letter a summary of the activities that have been discussed.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <b>Optimal storage-accuracy management for IoT forensics:</b>   POLIMI is actively working on optimizing traffic storage for IoT forensics tasks, which require capturing, storing, and analyzing network traffic exchanged by consumer IoT devices. The focus has been mainly on Wi-Fi-enabled IoT devices, although the team has recently started working with Zigbee traffic as well. The main objective of this activity is to develop techniques to efficiently store traffic and traffic characteristics relative to IoT devices so that forensic analysis built on such data can be performed with high levels of accuracy. To this end, we built a Wi-Fi access point able to perform online traffic feature extraction and compression (so far using lossy techniques based on quantization) and evaluated its performance on several forensics tasks such as presence and movement detection. At the moment, the team is working on a theoretical framework for optimizing the storage/accuracy performance of the proposed access point as well as on extending the architecture to Zigbee devices, integrating the compression and forensic analysis algorithms into a Zigbee gateway.</li>
+			  
+              <li><i class="bi bi-check2-circle"></i> <b>Probe request compression and matching:</b> POLIMI is also actively working towards a compression algorithm tailored to Probe Request frames, which are transmitted by Wi-Fi devices. Such frames are particularly interesting for forensics activities such as localizing or tracking devices. Since the source MAC address contained in Probe Requests is generally randomized for privacy reasons, the objective of the work is to design a fingerprint algorithm that can determine the emitting device of a set of probe requests with high precision while requiring just a fraction of the bits needed to store the entire probe request frame. At the moment, techniques from the field of audio and video fingerprinting are being studied and adapted to the task at hand.</li>
+			  
+              <li><i class="bi bi-check2-circle"></i> <b>Darknets traffic analysis and compression:</b> UniTS is working towards implementing effective representation and compression techniques for darknet traffic. Darknets are IP addresses that function as passive probes, recording all received packets without hosting services. The traffic they capture, being unsolicited, makes darknets akin to “network telescopes”. On the web, there exist many open-source lists containing a set of known malicious IP addresses. They are a great resource for network administrators and practitioners, helping to build blocklists to prevent or block cyber attacks.
+During the first months of the project, the UniTS team has worked to understand to what extent lists can be used to explain darknet traffic — i.e., how many endpoints contacting a darknet appear in the public lists, thus are known malicious actors. Our results have shown that public lists can explain up to 3% of the sources of darknet traffic, but up to the 30% of volume. We are currently working to extend the set of lists considered in the studies and to include the lists of IP addresses of public legitimate scanners. Our next steps include a thorough methodology to group and cluster darknet traffic based on the information contained in public lists, to filter out uninteresting traffic, allowing storing only salient events thus achieving effective compression of the darknet traffic.
 </li>
+
             </ul>
             <p>
-              The methodologies developed in the COMPACT project will be tested in various network scenarios. These scenarios encompass central traffic analysis in backbone networks, examination of IoT traffic in home networks, and various traffic analysis tasks across different network elements and traffic rates.
+Stay tuned on our website for more news on our website!
+</p>
+<p>
+The COMPACT team
+
             </p>
           </div>
         </div>
