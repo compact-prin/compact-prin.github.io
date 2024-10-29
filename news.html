@@ -102,7 +102,41 @@
       </div>
     </section><!-- End About Us Section -->
 
-    <!-- ======= About Section ======= -->
+	    <section class="about" data-aos="fade-up">
+	      <div class="container">
+
+	        <div class="row">
+	          <div class="col-lg-12 pt-4 pt-lg-0">
+	            <h3>2024/10/20 - COMPACT Newsletter #2</h3>
+	            <p class="fst-italic">
+	We are pleased to publish the second e-newsletter, providing an update on the current status of the COMPACT research project. On October 14th, the entire research team held a remote meeting to discuss recent activities and the latest project updates.	
+	            </p>
+				The POLIMI team has successfully completed two key activities:
+				
+	            <ul>
+	              <li><i class="bi bi-check2-circle"></i> <b>Optimal Storage-Accuracy Management for IoT Forensics:</b>   POLIMI researchers have developed a framework to optimize IoT forensic tasks in a commercial Access Point. This framework automatically adjusts traffic analysis parameters—such as the number of statistical features to extract and the quantization levels used to represent these features. This allows the system to meet specific computational and storage constraints while maximizing the accuracy of forensic analysis. A journal paper on this framework has been submitted to the IEEE Transactions on Network and Service Management.</li>
+			  
+	              <li><i class="bi bi-check2-circle"></i> <b>Probe Request Fingerprinting:</b> The POLIMI team has also developed a method for creating a compact yet highly discriminative fingerprint for probe request frames. This fingerprint, requiring as little as 16 bits of memory per frame, enables accurate matching of probe requests from the same device, which is crucial for applications like device counting with minimal memory usage. The results of this work have been submitted to a top-tier conference (details omitted due to double-blind review policy).</li>
+				  
+			  Additionally, the POLIMI team is working on other important tasks related to traffic compression, with a focus on Zigbee traffic, CSI data from Wi-Fi transmissions, and time series of cellular network KPIs.
+
+			 <p> The UniTS Team is also making strides in their respective areas of the project. Specifically, it evaluated different lossy compression techniques for network logs coming from an operational network. The UniTS Team’s goal is to find novel compression techniques for compressing flow records and similar logs, and to this end, it took as a case study network logs produced by the Tstat passive meter. To evaluate the effectiveness of compression and assess rate-accuracy trade-offs, the target metric has been set to the classification of the domain (or website) the user contacted when generating a flow record, while the features are volumetric characteristics of the flow packets (e.g., packet size and timings). The Team evaluated and combined various techniques such as scalar quantization, Principal Component Analysis, and Vector Quantization (testing K-Means and H-DBscan algorithms). The results show that scalar quantization achieves the best trade-off between compression rate and accuracy, while PCA, despite proving good accuracy, achieves low compression rates due to the high entropy it injects into the data. Vector quantization algorithms provide promising results as well, but they can hardly scale to large data (which is still an open problem in the literature). In the following months, the Team will summarize the achievements in a scientific paper to submit to an international top-tier conference (not yet identified). Moreover, the Team will evaluate other compression techniques based on ML, specifically Auto-Encoder architectures.
+</p>
+
+	            </ul>
+	            <p>
+	Stay tuned on our website for more news on our website!
+	</p>
+	<p>
+	The COMPACT team
+
+	            </p>
+	          </div>
+	        </div>
+
+	      </div>
+	    </section><!-- End About Section -->
+		
     <section class="about" data-aos="fade-up">
       <div class="container">
 
