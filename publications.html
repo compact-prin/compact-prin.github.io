@@ -9,14 +9,11 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,72 +22,78 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Moderna
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    .publications-section {
+      padding: 40px 0 60px 0;
+    }
+
+    .pub-category {
+      margin-bottom: 40px;
+    }
+
+    .pub-category h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1e4356;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #68A4C4;
+      padding-bottom: 10px;
+    }
+
+    .pub-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .pub-list li {
+      margin-bottom: 18px;
+      line-height: 1.7;
+      font-size: 16px;
+      color: #444;
+    }
+
+    .pub-key {
+      font-weight: 700;
+      color: #1e4356;
+    }
+
+    .pub-note {
+      font-style: italic;
+    }
+  </style>
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
         <h1 class="text-light"><a href="index.html"><span></span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html"><img src="assets/img/pnrr_logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-         <li><a class="active " href="index.html">Home</a></li>
-         <li><a href="about.html">About</a></li>
-         <li><a href="team.html">Team</a></li>
-         <li><a href="news.html">News</a></li>
-	  <li><a href="publications.html">Publications</a></li>
-          <!--<li><a href="blog.html">Blog</a></li>
--->
-          <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
--->
-          <!--<li><a href="contact.html">Contact Us</a></li>
--->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a class="active" href="publications.html">Publications</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <main id="main">
 
-    <!-- ======= Our Portfolio Section ======= -->
     <section class="breadcrumbs">
       <div class="container">
-
         <div class="d-flex justify-content-between align-items-center">
           <h2>Publications</h2>
           <ol>
@@ -98,157 +101,78 @@
             <li>Publications</li>
           </ol>
         </div>
-
       </div>
-    </section><!-- End Our Portfolio Section -->
+    </section>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section class="portfolio">
+    <section class="publications-section">
       <div class="container">
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-pub">Publications</li>
-              <li data-filter=".filter-tool">Tools</li>
-			  <li data-filter=".filter-dataset">Datasets</li>
-            </ul>
-          </div>
+        <div class="pub-category">
+          <h3>Journal Articles</h3>
+          <ul class="pub-list">
+            <li><span class="pub-key">[Palmese2025TNSM]</span> Palmese, F., Redondi, A. E., &amp; Cesana, M. (2025). Resource Optimization for Evidence Collection and Preservation in IoT Forensics-Ready Access Points. <span class="pub-note">IEEE Transactions on Network and Service Management</span>.</li>
+
+            <li><span class="pub-key">[Farina2025JSAC]</span> Farina, M., Ravalico, D., Trevisan, M., &amp; Bartoli, A. (2025). A Zero Trust Data-Driven Perspective on PKI Root Stores. <span class="pub-note">IEEE Journal on Selected Areas in Communications</span>.</li>
+
+            <li><span class="pub-key">[Merlach2025Network]</span> Merlach, G., Trevisan, M., &amp; Giordano, D. (2025). Encrypted Client Hello Is Coming: A View from Passive Measurements. <span class="pub-note">Network, 5(3), 29</span>.</li>
+
+            <li><span class="pub-key">[Farina2026AdHoc]</span> Farina, M., Salvato, E., Trevisan, M., &amp; Bartoli, A. (2026). DRUID: Coordinating drone movements for compromised node identification. <span class="pub-note">Ad Hoc Networks, 104135</span>.</li>
+          </ul>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+        <div class="pub-category">
+          <h3>Conference Papers</h3>
+          <ul class="pub-list">
+            <li><span class="pub-key">[Boiano2023WFIOT]</span> Boiano, A., Redondi, A. E. C., &amp; Cesana, M. (2023, October). Iotscent: Enhancing forensic capabilities in internet of things gateways. In <span class="pub-note">2023 IEEE 9th World Forum on Internet of Things (WF-IoT)</span> (pp. 1-6). IEEE.</li>
 
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-pub">
-            <div class="portfolio-item">
-              <img src="assets/img/publications/iotscent/iotscent.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>IoTScent: Enhancing Forensic Capabilities in Internet of Things Gateways</h3>
-                <div>
-                  <a href="publications/iotscent.html" title="Publication Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-		  
-		  
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-dataset">
-            <div class="portfolio-item">
-              <img src="assets/img/publications/pimrc24/pimrc24.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>MAC Address De-Randomization using Multi-Channel Sniffers and Two-Stage Clustering</h3>
-                <div>
-                  <a href="publications/pimrc24.html" title="Publication Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-		  
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-pub">
-            <div class="portfolio-item">
-              <img src="assets/img/publications/icmlcn25/icmlcn.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>Compact Probe Request Fingerprinting with Asymmetric Pairwise Boosting</h3>
-                <div>
-                  <a href="publications/icmlcn25.html" title="Publication Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-		  
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-pub">
-            <div class="portfolio-item">
-              <img src="assets/img/publications/annet25/annet.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>Handling Large-Scale Network Flow Records:A Comparative Study on Lossy Compression</h3>
-                <div>
-                  <a href="publications/annet25.html" title="Publication Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-		  
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-pub">
-            <div class="portfolio-item">
-              <img src="assets/img/publications/dcoss-iot25/dcoss-iot.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>Efficient Wi-Fi Sensing for IoT Forensics with Lossy Compression of CSI Data</h3>
-                <div>
-                  <a href="publications/dcoss-iot25.html" title="Publication Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-<!--
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-tool">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>Publication 2</h3>
-                <div>
-                  <a href="pub-details.html" title="Publication Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+            <li><span class="pub-key">[Baccichet2024PIMRC]</span> Baccichet, G., Innamorati, C., Redondi, A. E., &amp; Cesana, M. (2024, September). MAC Address De-Randomization using Multi-Channel Sniffers and Two-Stage Clustering. In <span class="pub-note">2024 IEEE 35th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)</span> (pp. 1-6). IEEE.</li>
 
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-pub">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>Tool 1</h3>
-                <div>
-                  <a href="portfolio-details.html" title="Publication Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-		  
-          <div class="col-lg-4 col-md-6 portfolio-wrap filter-dataset">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3>Dataset 1</h3>
-                <div>
-                  <a href="portfolio-details.html" title="Publication Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
--->
-         
+            <li><span class="pub-key">[Ravalico2024TMA]</span> Ravalico, D., Valentim, R., Trevisan, M., &amp; Drago, I. (2024). Can blocklists explain darknet traffic?. In <span class="pub-note">Proceedings of the 8th Network Traffic Measurement and Analysis Conference (TMA)</span> (pp. 1-4).</li>
+
+            <li><span class="pub-key">[Merlach2025NOMS]</span> Merlach, G., Trevisan, M., Ravalico, D., Palmese, F., Baccichet, G., &amp; Redondi, A. (2025, May). Handling large-scale network flow records: A comparative study on lossy compression. In <span class="pub-note">NOMS 2025 - 2025 IEEE Network Operations and Management Symposium</span> (pp. 1-7). IEEE.</li>
+
+            <li><span class="pub-key">[Baccichet2025ICMLCN]</span> Baccichet, G., Palmese, F., Redondi, A. E., &amp; Cesana, M. (2025, May). Compact Probe Request Fingerprinting with Asymmetric Pairwise Boosting. In <span class="pub-note">2025 IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)</span> (pp. 1-6). IEEE.</li>
+
+            <li><span class="pub-key">[Cerutti2025DCOSS]</span> Cerutti, P., Palmese, F., Cominelli, M., &amp; Redondi, A. E. (2025, June). Efficient Wi-Fi Sensing for IoT Forensics with Lossy Compression of CSI Data. In <span class="pub-note">2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)</span> (pp. 01-08). IEEE.</li>
+
+            <li><span class="pub-key">[Palmese2025EUROS&amp;P]</span> Palmese, F., Mandalari, A. M., Haddadi, H., &amp; Redondi, A. E. (2025, June). Intelligent detection of non-essential IoT traffic on the home gateway. In <span class="pub-note">2025 IEEE European Symposium on Security and Privacy Workshops (EuroS&amp;PW)</span> (pp. 147-152). IEEE.</li>
+
+            <li><span class="pub-key">[Pezzoni2025WIMOB]</span> Pezzoni, R., Boiano, A., Palmese, F., &amp; Redondi, A. E. (2025, October). Multi-Party Consensus-based Blockchain for Chain of Custody in IoT Forensic Investigations. In <span class="pub-note">2025 21th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)</span> (pp. 1-6). IEEE.</li>
+          </ul>
+        </div>
+
+        <div class="pub-category">
+          <h3>Demonstrations</h3>
+          <ul class="pub-list">
+            <li><span class="pub-key">[Palmese2025Eusipco]</span> Palmese, F., Redondi, A. E., &amp; Cesana, M. (2025). Feature-Xniffer: On-the-fly Extraction and Compression of Network Traces for IoT Forensics. <span class="pub-note">33rd European Signal Processing Conference (EUSIPCO 2025)</span>.</li>
+
+            <li><span class="pub-key">[Palmese2025EWSN]</span> Palmese, F., Redondi, A. E., &amp; Cesana, M. (2025). Demo: On-the-fly Extraction and Compression of Network Traffic Traces for Efficient IoT Forensics. <span class="pub-note">22nd International Conference on Embedded Wireless Systems and Networks (EWSN 2025)</span>.</li>
+          </ul>
+        </div>
+
+        <div class="pub-category">
+          <h3>Submitted Manuscript (Under Review)</h3>
+          <ul class="pub-list">
+            <li><span class="pub-key">[Boiano2026IOTJ]</span> Boiano, A., Zheng, D., Palmese, F., Pimpinella, A., &amp; Redondi, A. E. (2026). Analyzing Zigbee Traffic: Datasets, Classification and Storage Trade-offs. <span class="pub-note">arXiv preprint arXiv:2602.03140</span>. Submitted to the Elsevier Internet of Things Journal.</li>
+
+            <li><span class="pub-key">[Pimpinella2026NETLET]</span> Pimpinella, A., Palmese, F., Redondi, A. E. (2026). Lossy Compression of Cellular Network KPIs. <span class="pub-note">arXiv preprint arXiv:2601.23105</span>. Submitted to the IEEE Networking Letters.</li>
+
+            <li><span class="pub-key">[Palmese2026ComMag]</span> Palmese, F., Merlach, G., Ravalico, D., Trevisan, M., Redondi, A. E. (2026). Lossy Compression of Network Feature Data: When Less Is Enough. <span class="pub-note">arXiv preprint arXiv:2602.21891</span>. Submitted to IEEE Communication Magazine.</li>
+
+            <li><span class="pub-key">[Ravalico2026EPSS]</span> Ravalico, D., Farina, M., Trevisan, M., &amp; Bartoli, A. Analysing the temporal dynamics of the exploit prediction scoring systems (EPSS). Submitted to <span class="pub-note">Journal of Cybersecurity (Oxford University Press)</span>.</li>
+
+            <li><span class="pub-key">[Merlach2026SatCom]</span> Merlach, G., Perdices, D., Perna, G., Trevisan, M., Giordano, D., Mellia, M. Internet Usage and Performance in GEO Satellite Networks: A Large-Scale Study Across Europe and Africa. Submitted to <span class="pub-note">Computer Networks (Elsevier)</span>.</li>
+          </ul>
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
 
-  </main><!-- End #main -->
+  </main>
 
-  <!-- ======= Footer ======= -->
   <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
 
-
-<!--	  
-	  
-<div class="footer-newsletter">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          </div>
-          <div class="col-lg-6">
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
--->
-
-	  
-<div class="footer-newsletter">
+    <div class="footer-newsletter">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -256,48 +180,51 @@
             <p>Subscribe to Compact newsletter</p>
           </div>
           <div class="col-lg-6">
-        	<form action="https://polimi.us21.list-manage.com/subscribe/post?u=22df80f819e9a75a4c5354ea0&amp;id=7b10b870cf&amp;f_id=00ffeae6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-			<div aria-hidden="true" style="position: absolute; left: -5000px;">
-        			/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-        			<input type="text" name="b_22df80f819e9a75a4c5354ea0_7b10b870cf" tabindex="-1" value="">
-    			</div>
-			<input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
-			<input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-            	</form>
+            <form action="https://polimi.us21.list-manage.com/subscribe/post?u=22df80f819e9a75a4c5354ea0&amp;id=7b10b870cf&amp;f_id=00ffeae6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+              <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                <input type="text" name="b_22df80f819e9a75a4c5354ea0_7b10b870cf" tabindex="-1" value="">
+              </div>
+              <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required value="">
+              <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+            </form>
           </div>
         </div>
       </div>
-	<div id="mce-responses" class="clear foot">
-		<div class="response" id="mce-error-response" style="display: none;"></div>
-		<div class="response" id="mce-success-response" style="display: none;"></div>
-	</div>
-</div>
-
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-
-
-	  
-
-	  
-  
-
-    <div class="container">
-      <div class="copyright">
-       
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
-        
+      <div id="mce-responses" class="clear foot">
+        <div class="response" id="mce-error-response" style="display: none;"></div>
+        <div class="response" id="mce-success-response" style="display: none;"></div>
       </div>
     </div>
-  </footer><!-- End Footer -->
+
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript">
+      (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = 'EMAIL';
+        ftypes[0] = 'email';
+        fnames[1] = 'FNAME';
+        ftypes[1] = 'text';
+        fnames[2] = 'LNAME';
+        ftypes[2] = 'text';
+        fnames[3] = 'ADDRESS';
+        ftypes[3] = 'address';
+        fnames[4] = 'PHONE';
+        ftypes[4] = 'phone';
+        fnames[5] = 'BIRTHDAY';
+        ftypes[5] = 'birthday';
+      }(jQuery));
+      var $mcj = jQuery.noConflict(true);
+    </script>
+
+    <div class="container">
+      <div class="copyright"></div>
+      <div class="credits"></div>
+    </div>
+  </footer>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -307,9 +234,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
